@@ -16,7 +16,20 @@ app.use(express.json());
 const userRouter = express.Router();
 app.use('/', userRouter);
 
-userRouter.post('/', userController.createUser);
+userRouter.post('/SignUp', userController.createUser);
+
+app.post(
+    "/Login",
+    userController.verifyUser,
+    (req, res) => {
+      // what should happen here on successful log in?
+      if (!res.locals.user) return res.send(`Username does not exist`);
+      if (res.locals.user.password !== req.body.password)
+        return res.send(`Password is incorrect`);
+        //need to redirect to homepage
+      if (res.locals.user.password === req.body.password) res.redirect('/Dashboard')
+    }
+  );
 
 
 

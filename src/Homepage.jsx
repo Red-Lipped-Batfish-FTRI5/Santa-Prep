@@ -1,9 +1,21 @@
-import React  from 'react';
+import './styles.scss';
+import React from 'react';
+import { Link } from "react-router-dom" 
 
-export default function Homepage() {
-  return (
-    <div>
-      <h1>THIS IS WORKING</h1>
-    </div>
-  )
+
+const Homepage = () => {
+    return (
+      <div className="App">
+        <nav>
+          <button>
+            <Link to="/Login">Login</Link>
+          </button>
+          <button>
+              <Link to="/SignUp">Sign Up</Link>
+          </button>
+        </nav>
+      </div>
+    )
 }
+
+export default Homepage;
