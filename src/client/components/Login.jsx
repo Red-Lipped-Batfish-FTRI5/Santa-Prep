@@ -1,30 +1,31 @@
 import React  from 'react';
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
     <div>
       <form action="/users/login" method="POST">
-      <div class="form-group">
-        <label for="username">Username</label>
+      <div className="form-group">
+        <label htmlFor="username">Username</label>
           <input
             type="username"
             id="username"
-            name="username"
+            className="username"
             class="form-control"
             placeholder="Enter Username"
           />
       </div>
-      <div class="form-group">
-        <label for="password">Password</label>
+      <div className="form-group">
+        <label htmlFor="password">Password</label>
           <input
             type="password"
             id="password"
-            name="password"
+            className="password"
             class="form-control"
             placeholder="Enter Password"
           />
       </div>
-        <button type="submit" class="btn btn-primary btn-block">Login</button>
+        <button type="submit" className="btn btn-primary btn-block">Login</button>
         </form>
     </div>  
   )
