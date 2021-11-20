@@ -25,7 +25,8 @@ const Login = () => {
             placeholder="Enter Password"
           />
       </div>
-        <button type="submit" className="btn btn-primary btn-block">Login</button>
+        <button type="submit" className="btn btn-primary btn-block">
+            <Link to="/Dashboard">Login</Link></button>
         </form>
     </div>  
   )
