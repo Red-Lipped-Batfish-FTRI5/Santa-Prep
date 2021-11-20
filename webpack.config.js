@@ -40,11 +40,8 @@ module.exports = {
      * to localhost:3000/api/* (where our Express server is running)
      */
     proxy: {
-      '/login/**': {
-        target: 'http://localhost:3000/',
-        secure: false,
+        '/api': 'http://localhost:3000/',
       },
-    },
   },
   module: {
     rules: [
