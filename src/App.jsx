@@ -1,5 +1,4 @@
 import React from 'react';
-import App from './Homepage';
 import Login from "./client/components/Login.jsx"
 import Homepage from "./Homepage.jsx"
 import Dashboard from "./client/components/Dashboard.jsx"
@@ -16,7 +15,6 @@ render(
       <Route path="/" element={<Homepage />}></Route>
       <Route exact path="/SignUp" element={<SignUp />}></Route>
       <Route exact path="/Login" element={<Login />}></Route>
-      <Route exact path="/Homepage" element={<Homepage />}></Route>
       <Route exact path="/Dashboard" element={<Dashboard />}></Route>
       <Route exact path="/Wishlist" element={<Wishlist />}></Route>
       <Route exact path="/CookieRecipes" element={<CookieRecipes />}></Route>
