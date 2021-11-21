@@ -5,7 +5,7 @@ import Homepage from "./Homepage.jsx"
 import Dashboard from "./client/components/Dashboard.jsx"
 import Wishlist from "./client/components/Wishlist.jsx"
 import CookieRecipes from "./client/components/CookieRecipes"
-import SignUp from "./client/components/Signup"
+import SignUp from "./client/components/SignUp"
 import ReactDOM from 'react-dom';
 import { render } from 'react-dom';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
