@@ -36,23 +36,27 @@ const CookieRecipes = () => {
   
   
     return (
-    <div>
-      <h3>Cookie Recipes</h3>
+    <div className="Container">
+      <nav>
+      <h3 className="SantaStyle1">Cookie Recipes</h3>
       <form onSubmit={e => {
           e.preventDefault();
           setQuery(search);
           console.log(search);
           }}>
-          <label>Search Cookies:</label>
+          <label className="SantaStyle2">Search Cookies:</label>
           <input value={search} onChange={ e => {
               setSearch(e.target.value);
             }}></input>
           <input type="submit" value="Search"></input>
       </form>
       <p>{data[0].title}</p>
-      <button type="submit" className="btn btn-primary btn-block">
+      </nav>
+      <div className="btn btnbottom">
+      <button type="submit">
           <Link to="/Dashboard">Go Back</Link>
       </button>
+      </div>
     </div>
   )
 }

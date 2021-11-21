@@ -1,4 +1,5 @@
 import React  from 'react';
+import { Link } from 'react-router-dom';
 
 const Signup = () => {
   return (
@@ -54,9 +55,8 @@ const Signup = () => {
           placeholder="Confirm Password"
         /> Password must match
     </div>
-      <button type="submit" className="btn btn-primary btn-block">
-      <Link to="/Login"></Link>
-        Sign Up
+      <button type="submit">
+      <Link to="/Login">Sign Up</Link>
       </button>
       </form>
   </div>
