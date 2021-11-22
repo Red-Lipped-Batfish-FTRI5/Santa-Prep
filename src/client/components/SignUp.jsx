@@ -34,10 +34,11 @@ const Signup = () => {
     setValues({ ...values, [prop]: event.target.value });
   };
   return (
-  <div>
+  <div>  
+  <div className='login'>
     <form>
     <div className="form-group">
-      <label htmlFor="name">Name</label>
+      <label htmlFor="name">Name:</label>
        <input
           type="name"
           id="name"
@@ -49,7 +50,7 @@ const Signup = () => {
         />
     </div>
     <div className="form-group">
-      <label htmlFor="username">Username</label>
+      <label htmlFor="username">Username:</label>
        <input
           type="username"
           id="username"
@@ -61,7 +62,7 @@ const Signup = () => {
         />
     </div>
     <div className="form-group">
-      <label htmlFor="email">Email</label>
+      <label htmlFor="email">Email:</label>
         <input
           type="email"
           id="email"
@@ -73,7 +74,7 @@ const Signup = () => {
         />
     </div>
     <div className="form-group">
-       <label htmlFor="password">Password</label>
+       <label htmlFor="password">Password:</label>
         <input
           type="password"
           id="password"
@@ -90,6 +91,22 @@ const Signup = () => {
       </button>
       </Link>   
       </form>
+  </div>
+  <div className="snowmandiv">
+    <div className="snowman">
+        <div className="body2">
+          <div className="head2"></div>
+          <div className="hat2"></div>
+          <div className="scarf2"></div>
+          <div className="buttons2"></div>
+          <div className="hands2">
+          <div className="right-hand2"></div>
+          <div className="left-hand2"></div>
+          </div>
+        <div className="shadow2"></div>
+        </div>
+        </div>  
+      </div>    
   </div>
   )
 }

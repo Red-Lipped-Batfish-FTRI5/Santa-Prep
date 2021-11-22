@@ -78,8 +78,8 @@ const CookieRecipes = () => {
           <label className="SantaStyle2">Search Cookies:</label>
           <input value={search} onChange={ e => {
               setSearch(e.target.value);
-            }}></input>
-          <input type="submit" value="Search"></input>
+            }} className='submitInput'></input>
+          <input type="submit" value="Search" className='submit'></input>
       </form>
       </nav>
       <div className="cardContainer">
@@ -87,7 +87,7 @@ const CookieRecipes = () => {
       </div>
        <div className="btn btnbottom">
        <Link to="/Dashboard">
-      <button type="submit">
+      <button type="submit" >
           Go Back
       </button>
       </Link>

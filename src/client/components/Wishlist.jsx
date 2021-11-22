@@ -77,9 +77,11 @@ const Wishlist = () => {
                 </div>
             </form>
             <div className="btn btnbottom">
+            <Link to="/Dashboard">
             <button type="submit">
-                <Link to="/Dashboard">Go Back</Link>
+                Go Back
             </button>
+            </Link>
             </div>
         </div>
     )
