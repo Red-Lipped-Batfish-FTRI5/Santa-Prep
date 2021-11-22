@@ -12,29 +12,29 @@ const Homepage = () => {
         <Link to="/CookieRecipes">Cookie Recipes</Link>
       </button>
       </div>
-      <div class="wrapper">
-        <div class="face">
-         <div class="hat-wrapper">
-            <div class="hat">
-              <div class="hat-top">
+      <div className="wrapper">
+        <div className="face">
+         <div className="hat-wrapper">
+            <div className="hat">
+              <div className="hat-top">
             </div>
           </div>
-        <div class="hat-brim">
+        <div className="hat-brim">
       </div>
     </div>
-    <div class="eyes">
-      <div class="eye left-eye">
+    <div className="eyes">
+      <div className="eye left-eye">
       </div>
-      <div class="eye right-eye">
+      <div className="eye right-eye">
       </div>
           </div>
-          <div class="mouth">
+          <div className="mouth">
            </div>
-            <div class="beard">
-                <div class="mustache">
-                <div class="mustache-left">
+            <div className="beard">
+                <div className="mustache">
+                <div className="mustache-left">
                 </div>
-              <div class="mustache-right">
+              <div className="mustache-right">
              </div>
            </div>
           </div>

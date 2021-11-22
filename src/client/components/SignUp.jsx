@@ -8,6 +8,8 @@ const Signup = () => {
     email: "",
     password: "",
   });
+
+
   const onFormSubmit = () => {
     const requestOptions = {
       method: 'POST',
@@ -31,7 +33,6 @@ const Signup = () => {
   const handleInputChange = (prop) => (event) => {
     setValues({ ...values, [prop]: event.target.value });
   };
-
   return (
   <div>
     <form>
@@ -81,17 +82,7 @@ const Signup = () => {
           name="password"
           className="form-control"
           placeholder="Create Password"
-        /> Password must be 6 characters
-    </div>
-    <div className="form-group">
-      <label htmlFor="password2">Confirm Password</label>
-        <input
-          type="password"
-          id="password2"
-          name="password2"
-          className="form-control"
-          placeholder="Confirm Password"
-        /> Password must match
+        /> 
     </div>
     <Link to="/Login">
       <button onClick={onFormSubmit} variant="outlined">
