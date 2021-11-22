@@ -25,15 +25,19 @@ const Wishlist = () => {
                 <div className="row">
                     <input type="submit" value="Save draft" className="submit"></input>
                     <input type="submit" value="Send to Santa Clause" className="submit"></input>
+                    <Link to="/Dashboard">
                     <button type="submit">
-                <Link to="/Dashboard">Draft</Link>
+                Draft
             </button>
+            </Link>
                 </div>
             </form>
             <div className="btn btnbottom">
+            <Link to="/Dashboard">
             <button type="submit">
-                <Link to="/Dashboard">Go Back</Link>
+                Go Back
             </button>
+            </Link>
             </div>
         </div>
     )
