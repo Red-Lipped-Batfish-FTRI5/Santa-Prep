@@ -1,7 +1,8 @@
-import React from "react";
+import  React from "react";
 import { Link } from "react-router-dom";
 
 const Wishlist = () => {
+    
     return (
         <div className="wishlist">
             <form action="/reviews" method="post">
@@ -9,6 +10,10 @@ const Wishlist = () => {
                     <div className="input-field">
                     <label htmlFor="title" className="to">Santa's Email ➠ </label>
                     <input type="text" className="toSanta" id="title" name="title" value="SantaClause@TheNorthPole.com" readOnly></input>
+                    </div>
+                    <div className="input-field">
+                    <label htmlFor="title" className="to">Parent's Email ➠ </label>
+                    <input type="text" className="toSanta" id="title" name="title" ></input>
                     </div>
                 </div>
                 <div className="row">

@@ -1,4 +1,4 @@
-$font-stack: Arial, Hevetica, sans-serif;
+$font-stack: 'Lobster', cursive;
 $light-color: #ffff;
 $primary-color: #165b33;
 $secondary-color: #d00000;
@@ -32,6 +32,34 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.recipeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 500px;
+  height: 300px;
+  margin: 0.5rem;
+  font-size: x-large;
+
+
+  border-style:solid;
+  background-color: $thirdary-color;
+  border-color:#ffff;
+}
+
+.recipeContainer h1 {
+  margin: 0;
+  font-size: large;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
 }
 
 .to {
