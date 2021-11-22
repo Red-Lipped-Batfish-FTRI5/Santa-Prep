@@ -17,8 +17,8 @@ app.use(express.json());
 app.use(cookieParser());
 
 
-// const userRouter = express.Router();
-// app.use('/', userRouter);
+const userRouter = express.Router();
+app.use('/', userRouter);
 
 app.post('/SignUp', userController.createUser, cookieController.setCookie);
 
