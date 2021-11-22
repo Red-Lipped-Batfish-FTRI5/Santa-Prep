@@ -5,12 +5,16 @@ const Homepage = () => {
   return (
     <div className="btnwrapper">
       <div>
+      <Link to="/Wishlist">
       <button>
-        <Link to="/Wishlist">Wishlist</Link> 
+        Wishlist
       </button>
+      </Link> 
+      <Link to="/CookieRecipes">
       <button>
-        <Link to="/CookieRecipes">Cookie Recipes</Link>
+        Cookie Recipes
       </button>
+      </Link>
       </div>
       <div className="wrapper">
         <div className="face">
