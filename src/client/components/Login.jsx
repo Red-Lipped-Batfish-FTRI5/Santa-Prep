@@ -2,16 +2,43 @@ import React  from 'react';
 import { Link } from "react-router-dom";
 
 const Login = () => {
+  const [values, setValues] = React.useState({
+    username: "",
+    password: "",
+  });
+  const onFormSubmit = () => {
+    const requestOptions = {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        username: values.username,
+        password: values.password,
+      })
+    }
+    fetch('/Login', requestOptions)
+      .then(res => res.json())
+      .then(res => {
+        if (newUser.id) {
+          props.authenicator({authorized: true})
+        }
+        console.log('Res: ', res)
+      });
+  }
+  const handleInputChange = (prop) => (event) => {
+    setValues({ ...values, [prop]: event.target.value });
+  };
+
   return (
     <div>
-      <form action="/users/login" method="POST">
+      <form>
       <div className="form-group">
         <label htmlFor="username">Username</label>
           <input
             type="username"
             id="username"
-            className="username"
-            class="form-control"
+            onChange={handleInputChange("username")}
+            value={values.username}
+            className="form-control"
             placeholder="Enter Username"
           />
       </div>
@@ -20,13 +47,17 @@ const Login = () => {
           <input
             type="password"
             id="password"
-            className="password"
-            class="form-control"
+            onChange={handleInputChange("password")}
+            value={values.password}
+            className="form-control"
             placeholder="Enter Password"
           />
       </div>
-        <button type="submit" className="btn btn-primary btn-block">
-            <Link to="/Dashboard">Login</Link></button>
+      <Link to="/Dashboard">
+        <button className="btn btn-primary btn-block" onClick={onFormSubmit}>
+            Login
+        </button>
+        </Link> 
         </form>
     </div>  
   )
