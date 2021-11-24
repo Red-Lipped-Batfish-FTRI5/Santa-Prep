@@ -8,7 +8,9 @@ import SignUp from "./client/components/SignUp"
 import ReactDOM from 'react-dom';
 import { render } from 'react-dom';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import ParentLanding from "./client/components/ParentLanding";
+import ViewKiddos from "./client/components/ViewKiddos";
+import ParentAuth from "./client/components/ParentAuth"
 
 render( 
   <BrowserRouter>
@@ -19,6 +21,9 @@ render(
       <Route exact path="/Dashboard" element={<Dashboard />}></Route>
       <Route exact path="/Wishlist" element={<Wishlist />}></Route>
       <Route exact path="/CookieRecipes" element={<CookieRecipes />}></Route>
+      <Route exact path="/ParentLanding" element={<ParentLanding />}></Route>
+      <Route exact path="/ViewKiddos" element={<ViewKiddos />}></Route>
+      <Route exact path="/ParentAuth" element={<ParentAuth />}></Route>
     </Routes>
   </BrowserRouter>
   , document.getElementById('app'));

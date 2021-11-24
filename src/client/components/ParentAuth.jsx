@@ -1,7 +1,8 @@
 import React  from 'react';
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 import { useState, useEffect, useRef } from 'react';
-const Login = () => {
+
+const ParentAuth = () => {
   const [values, setValues] = React.useState({
     username: "",
     password: "",
@@ -15,7 +16,7 @@ const Login = () => {
         password: values.password,
       })
     }
-    fetch('/Login', requestOptions)
+    fetch('/ParentAuth', requestOptions)
       .then(res => res.json())
       .then(res => {
         if (newUser.id) {
@@ -27,20 +28,23 @@ const Login = () => {
   const handleInputChange = (prop) => (event) => {
     setValues({ ...values, [prop]: event.target.value });
   };
-
   return (
     <div>
-    <div className= 'login'>
+      <div>
+        <h3>No kiddo zone!</h3>
+        <h4>Fuddy Duddies only. Parents, reenter your password to continue.</h4>
+      </div>
+    <div className= 'parentAuth'>
       <form>
       <div className="form-group">
-        <label htmlFor="username">Username:</label>
+        <label htmlFor="email">Email:</label>
           <input
-            type="username"
-            id="username"
-            onChange={handleInputChange("username")}
-            value={values.username}
+            type="email"
+            id="email"
+            onChange={handleInputChange("email")}
+            value={values.email}
             className="form-control"
-            placeholder="Enter Username"
+            placeholder="Enter Parent's Email"
           />
       </div>
       <div className="form-group">
@@ -54,7 +58,7 @@ const Login = () => {
             placeholder="Enter Password"
           />
       </div>
-      <Link to="/Dashboard">
+      <Link to="/ParentLanding">
         <button className="btn btn-primary btn-block" onClick={onFormSubmit}>
             Login
         </button>
@@ -78,6 +82,7 @@ const Login = () => {
       </div>    
     </div>  
   )
-}
 
-export default Login
+} 
+
+export default ParentAuth;

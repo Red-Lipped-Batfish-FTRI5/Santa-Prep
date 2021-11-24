@@ -1,19 +1,21 @@
 import React  from 'react';
 import { Link } from 'react-router-dom';
 
-const parentLanding = () => {
+const ParentLanding = () => {
   return (
+    <div>
+      <h2>Now that the kids are in bed...</h2>
     <div className="btnwrapper">
       <div>
       <Link to="/ViewKiddos">
       <button>
-        View Kiddos
+        Kiddos: Good, Bad, In Between?
       </button>
       </Link> 
       {/* Can we have a bit more descriptive instruction here?*/}
       <Link to="/CookieRecipes">
       <button>
-        Cookie Recipes
+        What Will Santa Eat?
       </button>
       </Link>
       </div>
@@ -46,7 +48,8 @@ const parentLanding = () => {
         </div>
     </div>
     </div>
+    </div>
   )
 }
 
-export default parentLanding;
+export default ParentLanding;

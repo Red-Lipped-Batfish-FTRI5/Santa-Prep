@@ -26,6 +26,7 @@
     "babel-loader": "^8.2.3",
     "css-loader": "^6.5.1",
     "file-loader": "^6.2.0",
+    "google-search-results-nodejs": "^2.0.1",
     "html-webpack-plugin": "^5.5.0",
     "postcss-loader": "^6.2.0",
     "sass": "^1.43.4",

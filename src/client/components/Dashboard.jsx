@@ -4,15 +4,10 @@ import { Link } from 'react-router-dom';
 const Homepage = () => {
   return (
     <div className="btnwrapper">
-      <div>
-      <Link to="/Wishlist">
+      <div> 
+      <Link to="/ParentLanding">
       <button>
-        Wishlist
-      </button>
-      </Link> 
-      <Link to="/CookieRecipes">
-      <button>
-        Cookie Recipes
+        Parent Dashboard
       </button>
       </Link>
       </div>
