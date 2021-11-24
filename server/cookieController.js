@@ -9,4 +9,4 @@
 
 
 
-module.exports = cookieController;
+// module.exports = cookieController;
