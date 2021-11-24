@@ -2,7 +2,7 @@ const express = require('express');
 // const mongoose = require('mongoose');
 const app = express()
 // const cookieParser = require('cookie-parser');
-// const userController = require('./userController')
+const userController = require('./userController')
 // const cookieController = require('./cookieController');
 
 const PORT = 3000;
@@ -14,16 +14,18 @@ const PORT = 3000;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(cookieParser());
+// app.use(cookieParser());
 
 
-const userRouter = express.Router();
-app.use('/', userRouter);
+// const userRouter = express.Router();
+// app.use('/api', userRouter);
 
-app.post('/SignUp', userController.createUser, cookieController.setCookie);
+app.post('/api/SignUp', userController.createUser, (req, res) => {
+  res.status(200).json(res.locals.users);
+});
 
-app.post('/Login', userController.verifyUser, cookieController.setCookie, (req, res) => {
-  res.redirect('/Dashboard')
+app.post('/api/Login', userController.verifyUser, (req, res) => {
+  res.status(200).send('User logged in')
   });
 
       // if (!res.locals.user) return res.send(`Username does not exist`);
