@@ -1,16 +1,16 @@
 const express = require('express');
-const mongoose = require('mongoose');
+// const mongoose = require('mongoose');
 const app = express()
-const cookieParser = require('cookie-parser');
-const userController = require('./userController')
-const cookieController = require('./cookieController');
+// const cookieParser = require('cookie-parser');
+// const userController = require('./userController')
+// const cookieController = require('./cookieController');
 
 const PORT = 3000;
 
-mongoose.connect('mongodb+srv://scratch:britpeytonrossnickFTRI5@scratchproject.rqthe.mongodb.net/scratchproject?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false});
-mongoose.connection.once('open', () => {
-  console.log('Connected to Database');
-});
+// mongoose.connect('mongodb+srv://scratch:britpeytonrossnickFTRI5@scratchproject.rqthe.mongodb.net/scratchproject?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false});
+// mongoose.connection.once('open', () => {
+//   console.log('Connected to Database');
+// });
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
