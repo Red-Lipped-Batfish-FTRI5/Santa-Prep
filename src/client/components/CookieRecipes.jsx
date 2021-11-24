@@ -14,10 +14,10 @@ const CookieRecipes = () => {
         fetch(`https://spoonacular-recipe-food-nutrition-v1.p.rapidapi.com/recipes/search?query=${query}&number=10&offset=0&type=cookie`, {
 	            "method": "GET",
 	           "headers": {
-		"x-rapidapi-host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com",
-		"x-rapidapi-key": "3827341071msh9cabc19f9c4a50ap194b6fjsnb03240d1f478"
-	}
-})
+		            "x-rapidapi-host": "spoonacular-recipe-food-nutrition-v1.p.rapidapi.com",
+		            "x-rapidapi-key": "b6d78ef46dmsh91ac1029e757e87p1b2c4cjsn538f08bc02ad"
+	            }
+        })
            .then(response => response.json())
            .then(response => {
             console.log('Response:', response.results)
@@ -25,7 +25,7 @@ const CookieRecipes = () => {
         })
         .then(console.log('Data: ', data))
         .catch(err => {
-            console.error(err);
+            throw Error(err.message);
         });
        }
        if (query !== '') {
@@ -72,7 +72,7 @@ const CookieRecipes = () => {
       <h3 className="SantaStyle1">Cookie Recipes</h3>
       <form onSubmit={e => {
           e.preventDefault();
-          const cleanedSearch = search.replace(/' '/g, '%20');
+          const cleanedSearch = search.replace(/' '/g, '%20'); //replace spaces with %20
           setQuery(cleanedSearch);
           }}>
           <label className="SantaStyle2">Search Cookies:</label>
@@ -96,5 +96,5 @@ const CookieRecipes = () => {
   )
 }
 
-export default CookieRecipes
+export default CookieRecipes;
 
