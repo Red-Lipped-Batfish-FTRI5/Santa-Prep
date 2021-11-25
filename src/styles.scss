@@ -1,4 +1,4 @@
-$font-stack: 'Lobster', cursive;
+$font-stack: "Lobster", cursive;
 $light-color: #ffff;
 $primary-color: #165b33;
 $secondary-color: #d00000;
@@ -16,7 +16,7 @@ body {
   line-height: 1.6;
 }
 
-textarea {
+letterTextarea {
   background-color: #f6e6b4;
   color: #d00000;
   padding: 1em;
@@ -44,18 +44,18 @@ nav {
   height: 400px;
   margin: 0.5rem;
   font-size: medium;
-  font-family: 'Mountains of Christmas', cursive;
+  font-family: "Mountains of Christmas", cursive;
   // align-content: space-around;
-  border-style:solid;
+  border-style: solid;
   background-color: $thirdary-color;
-  border-color:#ffff;
+  border-color: #ffff;
 }
-.recipeDetailsList {
-  // display: flex;
+//.recipeDetailsList {
+// display: flex;
 
-  // align-content: space-around;
-  // align-self: center;
-}
+// align-content: space-around;
+// align-self: center;
+//}
 .recipeImgContainer {
   // order: 1;
   margin: 10px;
@@ -94,7 +94,6 @@ nav {
   display: lex;
   flex-direction: column;
   align-items: center;
-  
 }
 .recipeImg {
   height: 150px;
@@ -105,14 +104,13 @@ nav {
   // margin: auto;
 }
 
-
-label{
-  color: white
+label {
+  color: white;
 }
 
 input {
   border-radius: 5px;
-  border: none
+  border: none;
 }
 
 .to {
@@ -154,11 +152,10 @@ h1 {
   text-shadow: 3px 3px #d00000;
 }
 
-.text{
+.text {
   color: $light-color;
   text-shadow: 2px 2px #d00000;
   font-size: 60px;
-
 }
 
 h5 {
@@ -198,7 +195,6 @@ h5 {
   margin-left: 10px;
 }
 
-
 //Buttons
 button {
   display: inline-block;
@@ -213,7 +209,7 @@ button {
   overflow: hidden;
   z-index: 1;
   &:after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: 0;
     left: 0;
@@ -224,7 +220,7 @@ button {
     z-index: -2;
   }
   &:before {
-    content: '';
+    content: "";
     position: absolute;
     bottom: 0;
     left: 0;
@@ -243,7 +239,7 @@ button {
   }
 }
 
-.submitInput{
+.submitInput {
   border-radius: 5px;
   margin-left: 10px;
   margin-right: 10px;
@@ -262,7 +258,7 @@ button {
   overflow: hidden;
   z-index: 1;
   &:after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: 0;
     left: 0;
@@ -273,7 +269,7 @@ button {
     z-index: -2;
   }
   &:before {
-    content: '';
+    content: "";
     position: absolute;
     bottom: 0;
     left: 0;
@@ -291,7 +287,6 @@ button {
     }
   }
 }
-
 
 //Santa Stuff
 
@@ -353,7 +348,7 @@ button {
 }
 
 .hat-top:before {
-  content: '';
+  content: "";
   display: block;
   background: white;
   background: radial-gradient(at top, #ffffff 0%, #e4e4e4 100%);
@@ -504,7 +499,7 @@ $light-off-opacity: 0.4;
       animation-duration: 1.4s;
     }
     &:before {
-      content: '';
+      content: "";
       position: absolute;
       background: #222;
       width: ($globe-width - 2);
@@ -514,7 +509,7 @@ $light-off-opacity: 0.4;
       left: 1px;
     }
     &:after {
-      content: '';
+      content: "";
       top: (0 - $globe-height/2);
       left: $globe-width - 3;
       position: absolute;
@@ -614,7 +609,7 @@ $light-off-opacity: 0.4;
 
 .face2 {
   overflow: hidden;
-  background: #F1E6D9;
+  background: #f1e6d9;
   width: 200px;
   height: 200px;
   border-radius: 200px;
@@ -630,7 +625,7 @@ $light-off-opacity: 0.4;
     bottom: 0;
     border-radius: 0 0 200px 200px;
     .nose {
-      background: #F59699;
+      background: #f59699;
       width: 16px;
       height: 16px;
       border-radius: 16px;
@@ -639,15 +634,14 @@ $light-off-opacity: 0.4;
       right: 0;
       top: -8px;
       position: absolute;
-      
     }
-    &:before, &:after {
-      content: '';
+    &:before,
+    &:after {
+      content: "";
       display: inline-block;
       width: 70px;
       height: 36px;
-      background: #F1E6D9;
-      
+      background: #f1e6d9;
     }
     &:before {
       border-radius: 70px 0;
@@ -660,27 +654,28 @@ $light-off-opacity: 0.4;
 .eyes {
   width: 140px;
   height: 70px;
-  background: #F5D2B9;
+  background: #f5d2b9;
   border-radius: 140px 140px 0 0;
   margin: 30px auto 0;
   overflow: hidden;
   font-size: 0;
-  .left, .right {
+  .left,
+  .right {
     display: inline-block;
     width: 50%;
     height: 100%;
     position: relative;
     &:before {
-      content: '';
+      content: "";
       width: 60px;
       height: 60px;
-      background: #F59699;
+      background: #f59699;
       position: absolute;
       bottom: -30px;
       border-radius: 60px;
     }
     &:after {
-      content: '';
+      content: "";
       position: absolute;
       width: 30px;
       height: 15px;
@@ -688,7 +683,7 @@ $light-off-opacity: 0.4;
       top: 20px;
     }
     span {
-      background: #0072CB;
+      background: #0072cb;
       width: 15px;
       height: 15px;
       display: block;
@@ -697,7 +692,7 @@ $light-off-opacity: 0.4;
     }
   }
   .left {
-    background: #F2C2A0;
+    background: #f2c2a0;
     &:before {
       left: -30px;
     }
@@ -726,14 +721,14 @@ $light-off-opacity: 0.4;
 .body {
   width: 200px;
   height: 250px;
-  background: #E74700;
+  background: #e74700;
   border-radius: 200px;
   z-index: -1;
   position: relative;
   top: -100px;
   &:after {
-    content: '';
-    background: #F1E6D9;
+    content: "";
+    background: #f1e6d9;
     width: 46px;
     height: 46px;
     position: absolute;
@@ -747,8 +742,8 @@ $light-off-opacity: 0.4;
 .left-hand {
   width: 80px;
   height: 50px;
-  border-bottom: 40px solid #E74700;
-  border-left: 40px solid #E74700;
+  border-bottom: 40px solid #e74700;
+  border-left: 40px solid #e74700;
   border-bottom-left-radius: 200px;
   position: absolute;
   left: -90px;
@@ -756,7 +751,7 @@ $light-off-opacity: 0.4;
 }
 
 .right-hand {
-  background: #E74700;
+  background: #e74700;
   width: 200px;
   border-radius: 200px 200px 0 0;
   left: 40px;
@@ -765,9 +760,10 @@ $light-off-opacity: 0.4;
   top: 30px;
 }
 
-.left-hand, .right-hand {
+.left-hand,
+.right-hand {
   &:before {
-    content: '';
+    content: "";
     background: #fff;
     height: 20px;
     display: block;
@@ -775,11 +771,11 @@ $light-off-opacity: 0.4;
     width: 47px;
   }
   &:after {
-    content: '';
+    content: "";
     position: absolute;
     width: 40px;
     height: 20px;
-    background: #F5D2B9;
+    background: #f5d2b9;
   }
 }
 
@@ -814,13 +810,14 @@ $light-off-opacity: 0.4;
 .cap {
   width: 130px;
   height: 50px;
-  background: #E74700;
+  background: #e74700;
   border-radius: 100px 0;
   position: relative;
   top: 50px;
   left: 70px;
-  &:before, &:after {
-    content: '';
+  &:before,
+  &:after {
+    content: "";
     position: absolute;
     width: 30px;
     height: 15px;
@@ -840,12 +837,13 @@ $light-off-opacity: 0.4;
 
 .belt {
   height: 35px;
-  background: #3A1200;
-  &:before, &:after {
-    content: '';
+  background: #3a1200;
+  &:before,
+  &:after {
+    content: "";
     height: 35px;
     width: 17px;
-    background: #E74700;
+    background: #e74700;
     position: absolute;
   }
   &:before {
@@ -856,18 +854,18 @@ $light-off-opacity: 0.4;
   }
   .buckle {
     box-sizing: border-box;
-    border: 10px solid #FFDF17;
+    border: 10px solid #ffdf17;
     width: 46px;
     margin: 0 auto;
     height: 35px;
     display: inline-block;
     position: relative;
     &:after {
-      content: '';
+      content: "";
       height: 5px;
       width: 15px;
       display: block;
-      background: #FFDF17;
+      background: #ffdf17;
       position: absolute;
       right: -2px;
       margin: auto;
@@ -888,9 +886,10 @@ $light-off-opacity: 0.4;
   left: 0;
   right: 0;
   margin: auto;
-  &:before, &:after {
-    content: '';
-    background: #3A1200;
+  &:before,
+  &:after {
+    content: "";
+    background: #3a1200;
     width: 23px;
     height: 23px;
     position: absolute;
@@ -906,35 +905,36 @@ $light-off-opacity: 0.4;
     bottom: 0;
   }
 }
-@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap");
 
 .gift {
   width: 130px;
   height: 100px;
-  background: #0072CB;
+  background: #0072cb;
   position: relative;
   left: 40px;
   display: inline-block;
   &:before {
-    content: '';
+    content: "";
     height: 30px;
     display: block;
-    background: #0069B9;
+    background: #0069b9;
   }
   .ribbon {
     height: 100%;
     width: 20px;
-    background: #E74700;
+    background: #e74700;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     margin: auto;
-    &:before, &:after {
-      content: '';
+    &:before,
+    &:after {
+      content: "";
       width: 40px;
       height: 20px;
-      background: #E74700;
+      background: #e74700;
       position: absolute;
       border-radius: 40px 0;
       top: -20px;
@@ -945,17 +945,17 @@ $light-off-opacity: 0.4;
     }
   }
   &.orange {
-    background: #FFAC05;
+    background: #ffac05;
     height: 200px;
     &:before {
-      background: #FF8D17;
+      background: #ff8d17;
     }
   }
   &.purple {
-    background: #9B70FF;
+    background: #9b70ff;
     height: 250px;
     &:before {
-      background: #844EFF;
+      background: #844eff;
     }
   }
 }
@@ -977,7 +977,7 @@ $light-off-opacity: 0.4;
 
 .text {
   text-align: center;
-  font-family: 'Mountains of Christmas', cursive;
+  font-family: "Mountains of Christmas", cursive;
   font-size: 50px;
   position: relative;
   top: -80px;
@@ -994,33 +994,35 @@ $light-off-opacity: 0.4;
   width: 200px;
   height: 200px;
   background: #ecf0f1;
-  box-shadow: -13px -8px 0px rgba(0,0,0,0.1) inset;
+  box-shadow: -13px -8px 0px rgba(0, 0, 0, 0.1) inset;
   border-radius: 50%;
   margin-top: -100px;
   position: absolute;
-  right:0;left:0;margin:0 auto;
-  margin-top:270px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  margin-top: 270px;
 }
 
 .snowman .body2:before {
   width: 100px;
   height: 100px;
   background: #ecf0f1;
-  box-shadow: -5px 0px 0px rgba(0,0,0,0.1) inset;
+  box-shadow: -5px 0px 0px rgba(0, 0, 0, 0.1) inset;
   border-radius: 50%;
   display: inline-block;
   content: "";
   position: relative;
   top: -191px;
   left: 46px;
-  z-index:30;
+  z-index: 30;
 }
 
 .snowman .body2:after {
   width: 160px;
   height: 160px;
   background: #ecf0f1;
-  box-shadow: -7px -5px 0px rgba(0,0,0,0.1) inset;
+  box-shadow: -7px -5px 0px rgba(0, 0, 0, 0.1) inset;
   border-radius: 50%;
   display: inline-block;
   content: "";
@@ -1034,7 +1036,7 @@ $light-off-opacity: 0.4;
   height: 0px;
   border-style: solid;
   border-width: 8px 41px 8px 0;
-  border-color: transparent #FA9A20 transparent transparent;
+  border-color: transparent #fa9a20 transparent transparent;
   content: "";
   position: relative;
   top: -229px;
@@ -1043,8 +1045,8 @@ $light-off-opacity: 0.4;
   -webkit-transform: rotate(10deg);
   -moz-transform: rotate(10deg);
   transform: rotate(10deg);
-  box-shadow: 0px 43px rgba(0,0,0,0.2) inset;
-  z-index:30;
+  box-shadow: 0px 43px rgba(0, 0, 0, 0.2) inset;
+  z-index: 30;
 }
 
 .snowman .body2 .head2:before {
@@ -1097,10 +1099,10 @@ $light-off-opacity: 0.4;
   top: 34px;
   left: 15px;
   border-radius: 50% 0% 50% 50%;
-  box-shadow: -4px 0px rgba(0,0,0,0.1) inset;
+  box-shadow: -4px 0px rgba(0, 0, 0, 0.1) inset;
 }
 .snowman .body2 .shadow2 {
-  background: rgba(0,0,0,0.2);
+  background: rgba(0, 0, 0, 0.2);
   border-radius: 50%;
   width: 190px;
   height: 30px;
@@ -1136,7 +1138,7 @@ $light-off-opacity: 0.4;
   border-left: 3px solid transparent;
   border-right: 3px solid transparent;
   height: 0;
-  z-index:30;
+  z-index: 30;
 }
 .left-hand2:after {
   width: 47px;
@@ -1196,26 +1198,26 @@ $light-off-opacity: 0.4;
   top: -6px;
   border-bottom: 4px solid rgba(128, 84, 6, 1);
   border-right: 3px solid transparent;
-  border-lrgy: 3px solid transparent;
+  border-left: 3px solid transparent; //change
   height: 0;
   border-radius: 20px 50% 10% 20%;
 }
 
 .snowman .hat2 {
-top: -253px;
-left: 76px;
--webkit-transform: rotate(10deg);
--moz-transform: rotate(10deg);
-transform: rotate(10deg);
-position: absolute;
-border-radius: 0;
-z-index: 20;
-border-top: 56px solid rgb(37, 37, 37);
-border-left: 10px solid transparent;
-border-right: 10px solid transparent;
-height: 0;
-width: 60px;
-border-bottom: 27px solid rgb(246, 62, 62);
+  top: -253px;
+  left: 76px;
+  -webkit-transform: rotate(10deg);
+  -moz-transform: rotate(10deg);
+  transform: rotate(10deg);
+  position: absolute;
+  border-radius: 0;
+  z-index: 20;
+  border-top: 56px solid rgb(37, 37, 37);
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  height: 0;
+  width: 60px;
+  border-bottom: 27px solid rgb(246, 62, 62);
 }
 
 .snowman .buttons2 {
@@ -1251,4 +1253,54 @@ border-bottom: 27px solid rgb(246, 62, 62);
   border-radius: 50%;
   top: 30px;
   left: 5px;
+}
+
+.some-page-wrapper {
+  display: flex;
+  margin: 15px;
+  background-color: red;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 200%;
+  justify-content: space-around;
+  //flex: 1;
+}
+
+.mostWantedColumn {
+  background-color: rgb(255, 0, 76);
+  height: 300px;
+}
+
+.medicoreColumn {
+  background-color: rgb(245, 245, 245);
+  height: 300px;
+}
+
+.leastWantedColumn {
+  display: flex;
+  background-color: rgb(128, 69, 88);
+  height: 300px;
+}
+
+.wishListTextarea {
+  background-color: #fad872;
+  color: #8d1313;
+  padding: 1em;
+  font-family: Comic sans-serif;
+  font-size: large;
+  border-radius: 10px;
+  border: 2px solid transparent;
+  outline: none;
 }
