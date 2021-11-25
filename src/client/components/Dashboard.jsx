@@ -5,14 +5,19 @@ const Homepage = () => {
   return (
     <div className="btnwrapper">
       <div>
-      <Link to="/Wishlist">
+      <Link to="/LetterToSanta">
       <button>
-        Wishlist
+        Write a letter to Santa
       </button>
       </Link> 
       <Link to="/CookieRecipes">
       <button>
         Cookie Recipes
+      </button>
+      </Link>
+      <Link to="/KidsDashboard">
+      <button>
+        Kid's Dashboard
       </button>
       </Link>
       </div>
@@ -48,4 +53,4 @@ const Homepage = () => {
   )
 }
 
-export default Homepage
+export default Homepage;

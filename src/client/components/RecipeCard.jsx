@@ -18,8 +18,9 @@ const RecipeCard = (props) => {
       </div>
       </div>
   )
-
+  
 }
+
 
 
 

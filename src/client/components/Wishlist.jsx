@@ -2,7 +2,7 @@ import  React from "react";
 import { useState, useEffect, useRef } from 'react';
 import { Link } from "react-router-dom";
 
-const Wishlist = () => {
+const LetterToSanta = () => {
     const [email, setEmail] = useState('');
     // const [message, setMessage] = useState('');
     const [parentEmail, setParentEmail] = useState('');
@@ -50,7 +50,7 @@ const Wishlist = () => {
 
 
     return (
-        <div className="wishlist">
+        <div >
             <form>
                 <div className="row">
                     <div className="input-field">
@@ -64,8 +64,8 @@ const Wishlist = () => {
                 </div>
                 <div className="row">
                     <div className="input-field">
-                    <h5>🎅 Write your wishlist to Santa here! 🎁</h5>
-                        <textarea name="body" id="body" className="textarea" placeholder="What should Santa bring?" cols="90" rows="25" onChange={e => {setEmail(e.target.value)}}></textarea>
+                    <h5>🎅 Write a letter to Santa! 🎁</h5>
+                        <textarea name="body" id="body" className="letterTextarea" placeholder="What should Santa bring?" cols="90" rows="25" onChange={e => {setEmail(e.target.value)}}></textarea>
                     </div>
                 </div>
                 <div className="row">
@@ -87,4 +87,4 @@ const Wishlist = () => {
     )
 }
 
-export default Wishlist
+export default LetterToSanta;
