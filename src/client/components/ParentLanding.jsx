@@ -1,18 +1,21 @@
 import React  from 'react';
 import { Link } from 'react-router-dom';
 
-const Homepage = () => {
+const ParentLanding = () => {
   return (
+    <div>
+      <h2>Now that the kids are in bed...</h2>
     <div className="btnwrapper">
-      <div> 
-      <Link to="/ParentLanding">
+      <div>
+      <Link to="/ViewKiddos">
       <button>
-        Parent Dashboard
+        Kiddos: Good, Bad, In Between?
       </button>
-      </Link>
-      <Link to="/KidsDashboard">
+      </Link> 
+      {/* Can we have a bit more descriptive instruction here?*/}
+      <Link to="/CookieRecipes">
       <button>
-        Kid's Dashboard
+        What Will Santa Eat?
       </button>
       </Link>
       </div>
@@ -45,7 +48,8 @@ const Homepage = () => {
         </div>
     </div>
     </div>
+    </div>
   )
 }
 
-export default Homepage;
+export default ParentLanding;

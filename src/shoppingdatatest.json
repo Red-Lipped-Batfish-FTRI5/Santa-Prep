@@ -1,0 +1,711 @@
+{
+    "search_metadata": {
+        "id": "619ec21a1baebb9faa8596f7",
+        "status": "Success",
+        "json_endpoint": "https://serpapi.com/searches/98d9b398cfbece20/619ec21a1baebb9faa8596f7.json",
+        "created_at": "2021-11-24 22:52:10 UTC",
+        "processed_at": "2021-11-24 22:52:10 UTC",
+        "google_url": "https://www.google.com/search?q=doll+toy+buy&oq=doll+toy+buy&uule=w+CAIQICIaQXVzdGluLFRleGFzLFVuaXRlZCBTdGF0ZXM&hl=en&gl=us&sourceid=chrome&ie=UTF-8",
+        "raw_html_file": "https://serpapi.com/searches/98d9b398cfbece20/619ec21a1baebb9faa8596f7.html",
+        "total_time_taken": 2.91
+    },
+    "search_parameters": {
+        "engine": "google",
+        "q": "doll toy buy",
+        "location_requested": "Austin, Texas, United States",
+        "location_used": "Austin,Texas,United States",
+        "google_domain": "google.com",
+        "hl": "en",
+        "gl": "us",
+        "device": "desktop"
+    },
+    "search_information": {
+        "organic_results_state": "Results for exact spelling",
+        "query_displayed": "doll toy buy",
+        "total_results": 161000000,
+        "time_taken_displayed": 0.78
+    },
+    "shopping_results": [
+        {
+            "position": 1,
+            "block_position": "top",
+            "title": "Star Wars The Mandalorian The Child Plush by Mattel, Multicolor",
+            "price": "$24.99",
+            "extracted_price": 24.99,
+            "link": "https://www.google.com/aclk?sa=l&ai=DChcSEwjf_pqri7L0AhU4H60GHcaHBZgYABAJGgJwdg&sig=AOD64_2u5bUsMQZGqnr7ryMnzW7vbxEdvQ&ctype=5&q=&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQ5bgDegQIAhA9&adurl=",
+            "source": "Kohl's",
+            "reviews": 3000,
+            "thumbnail": "https://serpapi.com/searches/619ec21a1baebb9faa8596f7/images/03a39713edf2114a7f7c676fa53a48aef5f409d45917246ff6ee2759fb2e3d04.png"
+        },
+        {
+            "position": 2,
+            "block_position": "top",
+            "title": "Mattel Collectible - Star Wars The Mandalorian: The Child Baby Yoda",
+            "price": "$23.24",
+            "extracted_price": 23.24,
+            "link": "https://www.google.com/aclk?sa=l&ai=DChcSEwjf_pqri7L0AhU4H60GHcaHBZgYABAHGgJwdg&ae=2&sig=AOD64_0e1yhdh_bpvLmOkntrAldr1WV7eQ&ctype=5&q=&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQ5bgDegQIAhBK&adurl=",
+            "source": "eBay",
+            "thumbnail": "https://serpapi.com/searches/619ec21a1baebb9faa8596f7/images/03a39713edf2114a7f7c676fa53a48ae88560c8587a8baac2aefb664a6c68dfe.png",
+            "extensions": [
+                "Free shipping"
+            ]
+        },
+        {
+            "position": 3,
+            "block_position": "top",
+            "title": "Star Wars The Child Plush Toy",
+            "price": "$30.00",
+            "extracted_price": 30.0,
+            "link": "https://www.google.com/aclk?sa=l&ai=DChcSEwjf_pqri7L0AhU4H60GHcaHBZgYABAIGgJwdg&ae=2&sig=AOD64_3-jxJ-U6sEiAJD7sgLfJHOz2J9YA&ctype=5&q=&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQ5bgDegQIAhBS&adurl=",
+            "source": "FAO Schwarz",
+            "reviews": 3000,
+            "thumbnail": "https://serpapi.com/searches/619ec21a1baebb9faa8596f7/images/03a39713edf2114a7f7c676fa53a48ae36aeb5676edb71c0a8947dedb3760f74.png"
+        },
+        {
+            "position": 4,
+            "block_position": "top",
+            "title": "Star Wars Grogu Plush Toy, 11-in “The Child” from The Mandalorian, Collectible Stuffed Character",
+            "price": "$27.99",
+            "extracted_price": 27.99,
+            "link": "https://www.google.com/aclk?sa=l&ai=DChcSEwjf_pqri7L0AhU4H60GHcaHBZgYABAGGgJwdg&ae=2&sig=AOD64_0DCo24qJ-6vQrWDN_gJ4uHgz6z_w&ctype=5&q=&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQ5bgDegQIAhBf&adurl=",
+            "source": "StockCalifornia",
+            "reviews": 3000,
+            "thumbnail": "https://serpapi.com/searches/619ec21a1baebb9faa8596f7/images/03a39713edf2114a7f7c676fa53a48aece215bd761e25dd9414e331518830b0a.png"
+        },
+        {
+            "position": 5,
+            "block_position": "top",
+            "title": "Glimmies Nova 2.5-Inch Figure",
+            "price": "$9.99",
+            "extracted_price": 9.99,
+            "link": "https://www.google.com/aclk?sa=l&ai=DChcSEwjf_pqri7L0AhU4H60GHcaHBZgYABAFGgJwdg&ae=2&sig=AOD64_2r3QWxq6KpND2Z5ifClGfZIZRWCg&ctype=5&q=&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQ5bgDegQIAhBs&adurl=",
+            "source": "ToyWiz.com",
+            "thumbnail": "https://serpapi.com/searches/619ec21a1baebb9faa8596f7/images/03a39713edf2114a7f7c676fa53a48ae901625b5b41dfd551d83da59ec5a8f44.png"
+        }
+    ],
+    "local_map": {
+        "link": "https://www.google.com/search?gl=us&hl=en&q=doll+toy+buy&npsic=0&rflfq=1&rldoc=1&rllag=30310921,-97739831,5274&tbm=lcl&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQtgN6BAgaEAg",
+        "image": "https://serpapi.com/searches/619ec21a1baebb9faa8596f7/images/204a020a5aff15851519bfa4cde6214a.png",
+        "gps_coordinates": {
+            "latitude": 30.310921,
+            "longitude": -97.739831,
+            "altitude": 5274
+        }
+    },
+    "local_results": {
+        "more_locations_link": "https://www.google.com/search?gl=us&hl=en&tbs=lf:1,lf_ui:10&tbm=lcl&q=doll+toy+buy&rflfq=1&num=10&uule=w+CAIQICIaQXVzdGluLFRleGFzLFVuaXRlZCBTdGF0ZXM&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQjGp6BAgaEGI",
+        "places": [
+            {
+                "position": 1,
+                "title": "Target",
+                "place_id": "13551030223868991599",
+                "lsig": "AB86z5U12xqqy8nkB-wHdwoCcbWF",
+                "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&lsig=AB86z5U12xqqy8nkB-wHdwoCcbWF&ludocid=13551030223868991599&q=doll+toy+buy&tbm=lcl",
+                "rating": 3.8,
+                "reviews": 43,
+                "type": "Toy store",
+                "address": "901 E 5th St Ste 140",
+                "phone": "(512) 813-2929",
+                "description": "In stock: dolls · Updated today",
+                "thumbnail": "https://serpapi.com/searches/619ec21a1baebb9faa8596f7/images/e0596b57e6b7586e1a828bf433a814be3fcea1df3646bf7a18a4c8bbc2897a0cfa2d8d17690bf999.jpeg",
+                "gps_coordinates": {
+                    "latitude": 30.263994,
+                    "longitude": -97.73389
+                }
+            },
+            {
+                "position": 2,
+                "title": "Toy Joy",
+                "place_id": "3197905328954905731",
+                "lsig": "AB86z5VTNzQP2EgFql6ppNak23T2",
+                "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&lsig=AB86z5VTNzQP2EgFql6ppNak23T2&ludocid=3197905328954905731&q=doll+toy+buy&tbm=lcl",
+                "rating": 4.5,
+                "reviews": 557,
+                "price": "$$",
+                "type": "Toy store",
+                "address": "403 W 2nd St · In 2nd Street District",
+                "phone": "(512) 320-0090",
+                "thumbnail": "https://serpapi.com/searches/619ec21a1baebb9faa8596f7/images/e0596b57e6b7586e1a828bf433a814beb043029b58d07a636dded05ad4c9440c4b8bb370146da5e2.jpeg",
+                "gps_coordinates": {
+                    "latitude": 30.265215,
+                    "longitude": -97.74806
+                }
+            },
+            {
+                "position": 3,
+                "title": "Terra Toys",
+                "place_id": "17078826211133054525",
+                "lsig": "AB86z5UOEIapZGP0dppfW_hk58Or",
+                "place_id_search": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&lsig=AB86z5UOEIapZGP0dppfW_hk58Or&ludocid=17078826211133054525&q=doll+toy+buy&tbm=lcl",
+                "rating": 4.7,
+                "reviews": 738,
+                "price": "$$",
+                "type": "Toy store",
+                "address": "2438 W Anderson Ln C1 · In West Anderson Plaza",
+                "phone": "(512) 445-4489",
+                "description": "\"Everything from nesting dolls to magic tricks.\"",
+                "thumbnail": "https://serpapi.com/searches/619ec21a1baebb9faa8596f7/images/e0596b57e6b7586e1a828bf433a814be7f4d5bbbcc38b4260c5f2bf91923175a63ce64cce568c51d.jpeg",
+                "gps_coordinates": {
+                    "latitude": 30.35785,
+                    "longitude": -97.7316
+                }
+            }
+        ]
+    },
+    "inline_products": [
+        {
+            "position": 1,
+            "title": "Hasbro Baby Alive Baby Grows Up",
+            "link": "https://www.google.com/search?q=Hasbro+Baby+Alive+Baby+Grows+Up&gl=us&hl=en&stick=H4sIAAAAAAAAAONgVuLVT9c3NMw2yDUsSDY1ecRowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18ixilfdILE4qyldwSkyqVHDMySxLhTDdi_LLixVCCwBcGIEobgAAAA&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQlr4CegQIGBAG",
+            "price": 40,
+            "rating": 3.7,
+            "reviews": 529,
+            "thumbnail": "https://serpapi.com/searches/619ec21a1baebb9faa8596f7/images/1062b7a4975a97126c8e5aca37a3a3a69752c83bdba0bbfbeb45d88d91655fc9.jpeg"
+        },
+        {
+            "position": 2,
+            "title": "Lol Surprise Big B.B 11\" Large Doll",
+            "link": "https://www.google.com/search?q=Lol+Surprise+Big+B.B+11%22+Large+Doll&gl=us&hl=en&stick=H4sIAAAAAAAAAONgVuLVT9c3NMwtN6vMsajKecRowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18ixiVfbJz1EILi0qKMosTlVwykxXcNJzUjA0VFLwSSxKT1Vwyc_JAQBrxBUDcgAAAA&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQlr4CegQIGBAO",
+            "price": 27,
+            "rating": 4.7,
+            "reviews": 165,
+            "thumbnail": "https://serpapi.com/searches/619ec21a1baebb9faa8596f7/images/1062b7a4975a97126c8e5aca37a3a3a68089f371f78955ccc841390fe7516175.jpeg"
+        },
+        {
+            "position": 3,
+            "title": "Dolls World Talking Tilly",
+            "link": "https://www.google.com/search?q=Dolls+World+Talking+Tilly&gl=us&hl=en&stick=H4sIAAAAAAAAAONgVuLVT9c3NCw0Mi0pySvPfsRowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18ixilXTJz8kpVgjPL8pJUQhJzMnOzEtXCMnMyakEABMFkwZoAAAA&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQlr4CegQIGBAW",
+            "price": 42,
+            "rating": 4.8,
+            "reviews": 36,
+            "thumbnail": "https://serpapi.com/searches/619ec21a1baebb9faa8596f7/images/1062b7a4975a97126c8e5aca37a3a3a60ccf0b824a1721583484ed30178df161.jpeg"
+        },
+        {
+            "position": 4,
+            "title": "Barbie Extra",
+            "link": "https://www.google.com/search?q=Barbie+Extra&gl=us&hl=en&stick=H4sIAAAAAAAAAONgVuLVT9c3NMworso2KaooecRowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18ixi5XFKLErKTFVwrSgpSgQAUsY6G1sAAAA&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQlr4CegQIGBAe",
+            "price": 17,
+            "rating": 4.7,
+            "reviews": 1000,
+            "thumbnail": "https://serpapi.com/searches/619ec21a1baebb9faa8596f7/images/1062b7a4975a97126c8e5aca37a3a3a6f7dba4a799b5d6e3790e07b06c8dcece.jpeg"
+        },
+        {
+            "position": 5,
+            "title": "LOL Surprise Tweens Fashion Doll 15 Surprises",
+            "link": "https://www.google.com/search?q=LOL+Surprise+Tweens+Fashion+Doll+15+Surprises&gl=us&hl=en&stick=H4sIAAAAAAAAAONgVuLVT9c3NMzLy40vLktPe8RowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18ixi1fXx91EILi0qKMosTlUIKU9NzStWcEsszsjMz1Nwyc_JUTA0hcsXAwCpyIU4fAAAAA&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQlr4CegQIGBAm",
+            "price": 17,
+            "rating": 4.8,
+            "reviews": 147,
+            "thumbnail": "https://serpapi.com/searches/619ec21a1baebb9faa8596f7/images/1062b7a4975a97126c8e5aca37a3a3a6de92fd4a163e4d721b8fd9b2ba8a076d.jpeg"
+        },
+        {
+            "position": 6,
+            "title": "Rainbow High Winter Break Fashion Doll with Accessories",
+            "link": "https://www.google.com/search?q=Rainbow+High+Winter+Break+Fashion+Doll+with+Accessories&gl=us&hl=en&stick=H4sIAAAAAAAAAONgVuLVT9c3NCxKscioKjdIecRowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18ixiNQ9KzMxLyi9X8MhMz1AIz8wrSS1ScCpKTcxWcEsszsjMz1Nwyc_JUSjPLMlQcExOTi0uzi_KTC0GAJO4ChWGAAAA&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQlr4CegQIGBAt",
+            "price": 35,
+            "rating": 4.5,
+            "reviews": 80,
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQtKMKFbb7I8t26cN9iGR3ulcrlv0XCm8Enjy2eYdyJEtEIBS55PZ8NxQMBkNqFYzRjAxpODt4"
+        },
+        {
+            "position": 7,
+            "title": "Rainbow High Bella Parker",
+            "link": "https://www.google.com/search?q=Rainbow+High+Bella+Parker&gl=us&hl=en&stick=H4sIAAAAAAAAAONgVuLVT9c3NCwyL07KzUmxfMRowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18ixilQxKzMxLyi9X8MhMz1BwSs3JSVQISCzKTi0CAFk9b0FoAAAA&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQlr4CegQIGBA1",
+            "price": 18,
+            "rating": 4.5,
+            "reviews": 1000,
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQ-oOqlVbMver3RQ2Cm3vnLAGGRLRZ8NcpFzTv-LjlAdyGQkUsPnOu_yMFNW-wjrwd7i6mBe2rz"
+        },
+        {
+            "position": 8,
+            "title": "Adora Sweet Baby Girl Blossom, Doll Washable Toy Gift 11-inch",
+            "link": "https://www.google.com/search?q=Adora+Sweet+Baby+Girl+Blossom,+Doll+Washable+Toy+Gift+11-inch&gl=us&hl=en&stick=H4sIAAAAAAAAAONgVuLVT9c3NCw0zE0pTzbLfcRowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18ixitXVMyS9KVAguT00tUXBKTKpUcM8sylFwyskvLs7P1VFwyc_JUQhPLM5ITMpJVQjJB8mnlSgYGupm5iVnAACX9LKhjAAAAA&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQlr4CegQIGBA8",
+            "price": 18,
+            "rating": 5.0,
+            "reviews": 1,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcRldvujQLOO4ioc1EU78NSGvbiLEZgmeknqO9wGKBq2THq7iDAUP7Ye8Wq58clCe3cWYaZmaXqL"
+        },
+        {
+            "position": 9,
+            "title": "Baby Alive Mix My Medicine Baby Doll",
+            "link": "https://www.google.com/search?q=Baby+Alive+Mix+My+Medicine+Baby+Doll&gl=us&hl=en&stick=H4sIAAAAAAAAAONgVuLVT9c3NMzLK0_LtawqfsRowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18ixiVXFKTKpUcMzJLEtV8M2sUPCtVPBNTclMzsxLVQBLueTn5AAAiHGzcXMAAAA&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQlr4CegQIGBBE",
+            "price": 18,
+            "rating": 4.6,
+            "reviews": 113,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTHJrKka8znq1tOhCUI70wmNUqUE-9ADKA8k2hEdkVesfdIdlMbvD4rDlq0AnXEvFDW6uDq1KyF"
+        },
+        {
+            "position": 10,
+            "title": "Barbie Made to Move Doll",
+            "link": "https://www.google.com/search?q=Barbie+Made+to+Move+Doll&gl=us&hl=en&stick=H4sIAAAAAAAAAONgVuLVT9c3NEzOKjMpr8qzfMRowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18ixilXBKLErKTFXwTUxJVSjJV_DNL0tVcMnPyQEAOLOSi2cAAAA&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQlr4CegQIGBBM",
+            "price": 14,
+            "rating": 4.7,
+            "reviews": 1000,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTyvI-kuLzElAXKkr5O442dAdrIgv0NpD6pnxB_SDOYj2nT1QI9Ij9dPEqijA"
+        },
+        {
+            "position": 11,
+            "title": "LOL Surprise OMG Fashion Doll",
+            "link": "https://www.google.com/search?q=LOL+Surprise+OMG+Fashion+Doll&gl=us&hl=en&stick=H4sIAAAAAAAAAONgVuLVT9c3NCw0Mi0rSEvLeMRowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18ixilfXx91EILi0qKMosTlXw93VXcEsszsjMz1Nwyc_JAQDfO8e0bAAAAA&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQlr4CegQIGBBU",
+            "price": 24,
+            "rating": 4.8,
+            "reviews": 43,
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQq8QGdq5LIBHUepq4cxXoZ6uAOJDfRiWgjwKHth3BjXWCEF3BDjuvOrL1zqCPay4UY5_i20Yqt"
+        },
+        {
+            "position": 12,
+            "title": "Baby Starters Plush Snuggle Buddy Baby Doll",
+            "link": "https://www.google.com/search?q=Baby+Starters+Plush+Snuggle+Buddy+Baby+Doll&gl=us&hl=en&stick=H4sIAAAAAAAAAONgVuLVT9c3NMyuKC43M8xOesRowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18ixi1XZKTKpUCC5JLCpJLSpWCMgpLc5QCM4rTU_PSVVwKk1JqVQAq3DJz8kBANPS1uB6AAAA&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQlr4CegQIGBBb",
+            "price": 10,
+            "rating": 4.8,
+            "reviews": 94,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTqp3RNWvRtSMWW3L-R0s20ZK87cQe5io4gRpdNW_Q91hFXTaLBihLfb5R0g3E9aYycXOfSXz4"
+        },
+        {
+            "position": 13,
+            "title": "Cre8tive Minds Basket of Babies",
+            "link": "https://www.google.com/search?q=Cre8tive+Minds+Basket+of+Babies&gl=us&hl=en&stick=H4sIAAAAAAAAAONgVuLVT9c3NEzLySozMDKteMRowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18ixilXcuSrUoySxLVfDNzEspVnBKLM5OLVHITwOykjJTiwGofnPLbgAAAA&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQlr4CegQIGBBj",
+            "price": 33,
+            "rating": 4.9,
+            "reviews": 129,
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRebMSZ2vZnI-c07mBefOcZR_8vGGlvGbsPiy5Pq3swlHQhsuHjZzkbwxDzLKeMhfBItf-s9m0"
+        },
+        {
+            "position": 14,
+            "title": "Baby Doll with Accessories Nenuco Boutique Famosa 700015835",
+            "link": "https://www.google.com/search?q=Baby+Doll+with+Accessories+Nenuco+Boutique+Famosa+700015835&gl=us&hl=en&stick=H4sIAAAAAAAAAONgVuLVT9c3NMzKys0oqszNecRowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18ixitXZKTKpUcMnPyVEozyzJUHBMTk4tLs4vykwtVvBLzStNzldwyi8tySwsTVVwS8zNL05UMDcwMDA0tTA2BQDC5iraigAAAA&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQlr4CegQIGBBq",
+            "price": 84,
+            "rating": 4.0,
+            "reviews": 1,
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcST5Wn3vrFD-Qu8U6tNbJo6ARnMaIDKPyPEJvYKjMmJEkvxhPxWEwJKx7mL18c0XSbhgxqNNlY"
+        },
+        {
+            "position": 15,
+            "title": "Jc Toys La Baby Soft Baby Doll",
+            "link": "https://www.google.com/search?q=Jc+Toys+La+Baby+Soft+Baby+Doll&gl=us&hl=en&stick=H4sIAAAAAAAAAONgVuLVT9c3NEwzLi_MKE8vfsRowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18ixilfNKVgjJryxW8ElUcEpMqlQIzk8rgbBc8nNyAMF932JtAAAA&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQlr4CegQIGBBy",
+            "price": 17,
+            "rating": 4.6,
+            "reviews": 232,
+            "thumbnail": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTBVFpRyIZLYAlAnc--k2EprHuazaFU90sQen3jEpL1uNxhlfF7ZcgnwiZh3KNswRXQSvayR_aM"
+        },
+        {
+            "position": 16,
+            "title": "Barbie Doll and Accessories",
+            "link": "https://www.google.com/search?q=Barbie+Doll+and+Accessories&gl=us&hl=en&stick=H4sIAAAAAAAAAONgVuLVT9c3NMywMC5PKzOsfMRowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18ixilXZKLErKTFVwyc_JUUjMS1FwTE5OLS7OL8pMLQYA0N2xtmoAAAA&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQlr4CegQIGBB6",
+            "price": 16,
+            "rating": 4.7,
+            "reviews": 142,
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRALSpu_lOr5QVZZOPW-lwuCIaM9VFsz3XOHGS4hIg9cMsw9uGvKiBYvjx5ugg"
+        },
+        {
+            "position": 17,
+            "title": "L.O.L. Surprise! O.M.G. Candylicious Fashion Doll",
+            "link": "https://www.google.com/search?q=L.O.L.+Surprise!+O.M.G.+Candylicious+Fashion+Doll&gl=us&hl=en&stick=H4sIAAAAAAAAAONgVuLVT9c3NMwyNjIyq8o1f8RowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18ixiNfTR89fz0VMILi0qKMosTlVU8Nfz1XPXU3BOzEupzMlMzswvLVZwSyzOyMzPU3DJz8kBAJS80NOAAAAA&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQlr4CegUIGBCCAQ",
+            "price": 29,
+            "rating": 4.6,
+            "reviews": 1000,
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRCkrzhoUfzja1Sj-Pr3kDv7dDFywjtJXXkOZdhN92c9wuNT5LVaSTgq66-rhiXdpeHf3LREA"
+        },
+        {
+            "position": 18,
+            "title": "Glitter Girls Dolls by Battat Poseable Fashion Doll",
+            "link": "https://www.google.com/search?q=Glitter+Girls+Dolls+by+Battat+Poseable+Fashion+Doll&gl=us&hl=en&stick=H4sIAAAAAAAAAONgVuLVT9c3NMyyNK-ySEorf8RowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18ixiNXbPySwpSS1ScM8syilWcMnPAZJJlQpOiSUliSUKAfnFqYlJOakKbonFGZn5eWAFAB7qst-CAAAA&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQlr4CegUIGBCJAQ",
+            "price": 26,
+            "rating": 4.8,
+            "reviews": 71,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQxgWWukHdhC1PPmqrRVdz7qSWT6DaqpqD6t0VopMTL-kWuxTiqilr-WpNGnp00VqpzZyJwBTM"
+        },
+        {
+            "position": 19,
+            "title": "Barbie Doll & Glam Convertible",
+            "link": "https://www.google.com/search?q=Barbie+Doll+%26+Glam+Convertible&gl=us&hl=en&stick=H4sIAAAAAAAAAONgVuLVT9c3NEw2yspNt0zJesRowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18ixilXNKLErKTFVwyc_JUVBTcM9JzFVwzs8rSy0qyUzKSQUANdzMBW0AAAA&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQlr4CegUIGBCRAQ",
+            "price": 17,
+            "rating": 4.7,
+            "reviews": 2000,
+            "thumbnail": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRcnq7b-Ym0wzE-he4IfqmE86jdN3G1exYBHzKaOSzKU7J6-Jjl0WcbKcxZsBa3fQdTElI9-_w"
+        },
+        {
+            "position": 20,
+            "title": "Blume Doll",
+            "link": "https://www.google.com/search?q=Blume+Doll&gl=us&hl=en&stick=H4sIAAAAAAAAAONgVuLVT9c3NMywMLS0LDNIe8RowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18ixi5XLKKc1NVXDJz8kBANa9EoJZAAAA&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQlr4CegUIGBCZAQ",
+            "price": 5,
+            "rating": 4.5,
+            "reviews": 376,
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRXWcUM7N235fBRJrgpoJnv5crGxjOJV3fuZIjWbSpJJo6YoEhbBCnAlEEXj14v10y69l5AHYE"
+        },
+        {
+            "position": 21,
+            "title": "Glitter Babyz 3 Magical Color Changes Baby Doll",
+            "link": "https://www.google.com/search?q=Glitter+Babyz+3+Magical+Color+Changes+Baby+Doll&gl=us&hl=en&stick=H4sIAAAAAAAAAONgVuLVT9c3NCxKsTQuskwzecRowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18ixi1XfPySwpSS1ScEpMqqxSMFbwTUzPTE7MUXDOz8kvUnDOSMxLTy0Gyyq45OfkAACcN_s2fgAAAA&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQlr4CegUIGBChAQ",
+            "price": 26,
+            "rating": 4.2,
+            "reviews": 45,
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTD1173LwO_irONHwd1b5YUE6tkGqcb65ajbCm6OzX1OjLSG6L0IPu2eAjIRvFS0DYItRsCKAA"
+        },
+        {
+            "position": 22,
+            "title": "Manhattan Toy Wee Baby Stella",
+            "link": "https://www.google.com/search?q=Manhattan+Toy+Wee+Baby+Stella&gl=us&hl=en&stick=H4sIAAAAAAAAAONgVuLVT9c3NEzOLq8ozE3OfcRowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18ixilfVNzMtILClJzFMIya9UCE9NVXBKTKpUCC5JzclJBAAxHDR9bAAAAA&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQlr4CegUIGBCpAQ",
+            "price": 18,
+            "rating": 4.8,
+            "reviews": 217,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQOW4xq3oRgx557pCLuD1R_FQqNozchbAZBm7i4dPYgEC1AQUdhyPuatzPs6bLAGqLRLc6pA8w"
+        },
+        {
+            "position": 23,
+            "title": "L.O.L Surprise! OMG Dance Dance Dance B-Gurl",
+            "link": "https://www.google.com/search?q=L.O.L+Surprise!+OMG+Dance+Dance+Dance+B-Gurl&gl=us&hl=en&stick=H4sIAAAAAAAAAONgVuLVT9c3NCy0KMmOryzPeMRowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18ixi1fHR89fzUQguLSooyixOVVTw93VXcEnMS05FIZ103UuLcgCP8PNiewAAAA&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQlr4CegUIGBCxAQ",
+            "price": 21,
+            "rating": 4.7,
+            "reviews": 306,
+            "thumbnail": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSzCU79efad8ZEqQDaak_FJblT2T0Q77WDpk-8NEzh2WwmIDKSLwRXeAzKWYr5UIM0ctn7tlEE"
+        },
+        {
+            "position": 24,
+            "title": "Little Tikes Sing-Along Lilly 12-inch Lilly Tikes Preschool Doll",
+            "link": "https://www.google.com/search?q=Little+Tikes+Sing-Along+Lilly+12-inch+Lilly+Tikes+Preschool+Doll&gl=us&hl=en&stick=H4sIAAAAAAAAAONgVuLVT9c3NMzKNjaqqEjOesRowS3w8sc9YSn9SWtOXmPU5OIKzsgvd80rySypFJLmYoOyBKX4uVB18ixidfDJLCnJSVUIycxOLVYIzsxL13XMyc9LV_DJzMmpVDA00s3MS86A8iCKAopSi5Mz8vNzFFzyc3IAsu3zT48AAAA&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQlr4CegUIGBC4AQ",
+            "price": 12,
+            "rating": 4.6,
+            "reviews": 74,
+            "thumbnail": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcT-Dgj92HNIEfqboN85UwziilGoh-vsHCFBzEAn96c3ovUTJaoIU2zOIGTNSKXS8swJ2ZjB2YUD"
+        }
+    ],
+    "organic_results": [
+        {
+            "position": 1,
+            "title": "Doll Toys - Amazon.com",
+            "link": "https://www.amazon.com/kids-toys-dolls-accessories/b?ie=UTF8&node=166118011",
+            "displayed_link": "https://www.amazon.com › kids-toys-dolls-accessories",
+            "thumbnail": "https://serpapi.com/searches/619ec21a1baebb9faa8596f7/images/18e827e51968d5078d914c8c28e45171237467388aca6363e1e2b60afd1d364a.jpeg",
+            "displayed_results": "Results 1 - 24 of 20000+",
+            "snippet": "Online shopping for Toys & Games from a great selection of Dolls, Dollhouse Accessories, Doll Accessories, Dollhouses, ...",
+            "rich_snippet": {
+                "top": {
+                    "detected_extensions": {
+                        "results_of": 1
+                    },
+                    "extensions": [
+                        "Results 1 - 24 of 20000+ —"
+                    ]
+                }
+            },
+            "about_this_result": {
+                "source": {
+                    "description": "Amazon.com, Inc. is an American multinational technology company which focuses on e-commerce, cloud computing, digital streaming, and artificial intelligence. It is one of the Big Five companies in the U.S. information technology industry, along with Alphabet, Apple, Meta, and Microsoft.",
+                    "source_info_link": "https://en.wikipedia.org/wiki/Amazon_(company)",
+                    "security": "secure",
+                    "icon": "https://serpapi.com/searches/619ec21a1baebb9faa8596f7/images/18e827e51968d5078d914c8c28e45171b33040773e19f6b5c72a83fa2e59432818177ea0c76a209a511e1caad5419d5d.png"
+                },
+                "keywords": [
+                    "doll",
+                    "toy"
+                ],
+                "related_keywords": [
+                    "dolls",
+                    "toys"
+                ],
+                "languages": [
+                    "English"
+                ],
+                "regions": [
+                    "the United States"
+                ]
+            },
+            "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:7VmpqypkBg8J:https://www.amazon.com/kids-toys-dolls-accessories/b%3Fie%3DUTF8%26node%3D166118011+&cd=1&hl=en&ct=clnk&gl=us",
+            "related_pages_link": "https://www.google.com/search?gl=us&hl=en&q=related:https://www.amazon.com/kids-toys-dolls-accessories/b%3Fie%3DUTF8%26node%3D166118011+doll+toy+buy",
+            "related_results": [
+                {
+                    "position": 1,
+                    "title": "Best Seller Dolls - Amazon.com",
+                    "link": "https://www.amazon.com/gp/bestsellers/toys-and-games/3245219011",
+                    "snippet": "Discover the best Dolls in Best Sellers. Find the top 100 most popular items in Amazon Toys & Games Best Sellers."
+                }
+            ]
+        },
+        {
+            "position": 2,
+            "title": "Dolls - Target",
+            "link": "https://www.target.com/c/dolls-toys/-/N-5xt90",
+            "displayed_link": "https://www.target.com › Toys",
+            "snippet": "Target has the Dolls & Dollhouses you're looking for at incredible prices. Choose from contactless Same Day Delivery, Drive Up and more.",
+            "sitelinks": {
+                "inline": [
+                    {
+                        "title": "Our Generation : Dolls",
+                        "link": "https://www.target.com/c/dolls-toys/our-generation/-/N-5xt90Z5r27n"
+                    },
+                    {
+                        "title": "Doll Furniture",
+                        "link": "https://www.target.com/c/doll-furniture-dolls-dollhouses-toys/-/N-5xt8w"
+                    },
+                    {
+                        "title": "Doll Playsets",
+                        "link": "https://www.target.com/c/doll-playsets-dolls-dollhouses-toys/-/N-57q5p"
+                    },
+                    {
+                        "title": "Doll Clothes & Accessories",
+                        "link": "https://www.target.com/c/doll-clothes-dolls-dollhouses-toys/-/N-5xt8x"
+                    }
+                ]
+            },
+            "about_this_result": {
+                "source": {
+                    "description": "Target Corporation is an American retail corporation. The eighth-largest retailer in the United States, it is a component of the S&P 500 Index.",
+                    "source_info_link": "https://en.wikipedia.org/wiki/Target_Corporation",
+                    "security": "secure",
+                    "icon": "https://serpapi.com/searches/619ec21a1baebb9faa8596f7/images/18e827e51968d5078d914c8c28e451717eff9ad5c856f1b2df838f32482a67bd9f8c03c253563c4ab12a9f727e630338.png"
+                },
+                "keywords": [
+                    "doll",
+                    "toy",
+                    "buy"
+                ],
+                "related_keywords": [
+                    "dolls",
+                    "toys"
+                ],
+                "languages": [
+                    "English"
+                ],
+                "regions": [
+                    "the United States"
+                ]
+            },
+            "cached_page_link": null
+        },
+        {
+            "position": 3,
+            "title": "Baby Dolls - Walmart",
+            "link": "https://www.walmart.com/browse/toys/baby-dolls/4171_4187_133124",
+            "displayed_link": "https://www.walmart.com › ... › Baby Dolls",
+            "snippet": "Shop for Baby Dolls in Dolls & Dollhouses. Buy products such as My Sweet Love 13-inch Baby Doll with Carrier and Handle Play Set, Light Skin Tone, ...",
+            "about_this_result": {
+                "source": {
+                    "description": "Walmart Inc. is an American multinational retail corporation that operates a chain of hypermarkets, discount department stores, and grocery stores from the United States, headquartered in Bentonville, Arkansas.",
+                    "source_info_link": "https://en.wikipedia.org/wiki/Walmart",
+                    "security": "secure",
+                    "icon": "https://serpapi.com/searches/619ec21a1baebb9faa8596f7/images/18e827e51968d5078d914c8c28e45171dcbe219b2e3d7f58bc806ed7518019f1fb041901e966e15d54a871c2ff5df6cd.png"
+                },
+                "keywords": [
+                    "doll",
+                    "toy",
+                    "buy"
+                ],
+                "related_keywords": [
+                    "dolls",
+                    "toys"
+                ],
+                "languages": [
+                    "English"
+                ],
+                "regions": [
+                    "the United States"
+                ]
+            },
+            "cached_page_link": "/search?gl=us&hl=en&q=related:https://www.walmart.com/browse/toys/baby-dolls/4171_4187_133124+doll+toy+buy",
+            "related_results": [
+                {
+                    "position": 1,
+                    "title": "Toys for Girls - Walmart.com",
+                    "link": "https://www.walmart.com/cp/toys-for-girls/1228477",
+                    "snippet": "Toys girls like bestNew dolls, cool character bikes, and more—for less. Shop now. New My Life As toys. Get going with the RC Hello Kitty Jeep and more."
+                }
+            ]
+        },
+        {
+            "position": 4,
+            "title": "Dolls - Best Buy",
+            "link": "https://www.bestbuy.com/site/toys/dolls/pcmcat1492452146938.c?id=pcmcat1492452146938",
+            "displayed_link": "https://www.bestbuy.com › ... › Toys",
+            "date": "Items 1 - 24 of 248",
+            "snippet": "Find a wide selection of dolls to buy online at BestBuy.com along with other kids toys and educational resources.",
+            "about_this_result": {
+                "source": {
+                    "description": "Best Buy Co., Inc. is an American multinational consumer electronics retailer headquartered in Richfield, Minnesota.",
+                    "source_info_link": "https://en.wikipedia.org/wiki/Best_Buy",
+                    "security": "secure",
+                    "icon": "https://serpapi.com/searches/619ec21a1baebb9faa8596f7/images/18e827e51968d5078d914c8c28e4517166409dab14d8ba857664a07ec675885ee7a6ac1a5c928886b50f1b495cc9e890.png"
+                },
+                "keywords": [
+                    "doll",
+                    "toy",
+                    "buy"
+                ],
+                "related_keywords": [
+                    "dolls",
+                    "toys"
+                ],
+                "languages": [
+                    "English"
+                ],
+                "regions": [
+                    "the United States"
+                ]
+            },
+            "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:oxQWKPzGR70J:https://www.bestbuy.com/site/toys/dolls/pcmcat1492452146938.c%3Fid%3Dpcmcat1492452146938+&cd=33&hl=en&ct=clnk&gl=us"
+        },
+        {
+            "position": 5,
+            "title": "Barbie Dolls: Buy Barbie Toys & Gift Sets Online",
+            "link": "https://barbie.mattel.com/shop/en-us/ba/barbie-dolls",
+            "displayed_link": "https://barbie.mattel.com › Shop › En-us › Ba",
+            "snippet": "Discover the best selection of Barbie Dolls at the official Barbie website. Shop for the latest Fashionistas, Dreamtopia & other dolls today!",
+            "about_this_result": {
+                "source": {
+                    "description": "Mattel, Inc. is an American multinational toy manufacturing and entertainment company founded in January, 1945 and headquartered in El Segundo, California.",
+                    "source_info_link": "https://en.wikipedia.org/wiki/Mattel",
+                    "security": "secure"
+                },
+                "keywords": [
+                    "doll",
+                    "buy"
+                ],
+                "related_keywords": [
+                    "dolls",
+                    "toys"
+                ],
+                "languages": [
+                    "English"
+                ],
+                "regions": [
+                    "the United States"
+                ]
+            },
+            "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:v8chFhe7Cr0J:https://barbie.mattel.com/shop/en-us/ba/barbie-dolls+&cd=34&hl=en&ct=clnk&gl=us",
+            "related_results": [
+                {
+                    "position": 1,
+                    "title": "Mattel Shop: Buy Kids Toys, Dolls, Action Figures, Games ...",
+                    "link": "https://shop.mattel.com/shop",
+                    "snippet": "Find the coolest toys from kid's favorite brands at Mattel Shop. Browse the best children's toys, dolls, action figures, games, playsets and more today!"
+                }
+            ]
+        },
+        {
+            "position": 6,
+            "title": "Wholesale Baby Dolls - Toys - DollarDays",
+            "link": "https://www.dollardays.com/wholesale-dolls-and-doll-accessories.html",
+            "displayed_link": "https://www.dollardays.com › Toys & Games › Toys",
+            "thumbnail": "https://serpapi.com/searches/619ec21a1baebb9faa8596f7/images/18e827e51968d5078d914c8c28e45171d93c903b099cf4bc68b0df2e14e7c97a.jpeg",
+            "snippet": "Find toys that kids of all ages will love with wholesale dolls from DollarDays. ... LOG IN TO Buy ... Melissa & Doug Mine to Love Gabrielle - 12\" Doll.",
+            "about_this_result": {
+                "source": {
+                    "description": "dollardays.com was first indexed by Google more than 10 years ago",
+                    "security": "secure",
+                    "icon": "https://serpapi.com/searches/619ec21a1baebb9faa8596f7/images/18e827e51968d5078d914c8c28e45171332d17a3293d215993a9317bdd8df62fdb57e412f586a21272abe00c73bb2c27.png"
+                },
+                "keywords": [
+                    "doll",
+                    "toy",
+                    "buy"
+                ],
+                "related_keywords": [
+                    "dolls",
+                    "toys"
+                ],
+                "languages": [
+                    "English"
+                ],
+                "regions": [
+                    "the United States"
+                ]
+            },
+            "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:Wr6nl9DDxLoJ:https://www.dollardays.com/wholesale-dolls-and-doll-accessories.html+&cd=36&hl=en&ct=clnk&gl=us",
+            "related_pages_link": "https://www.google.com/search?gl=us&hl=en&q=related:https://www.dollardays.com/wholesale-dolls-and-doll-accessories.html+doll+toy+buy"
+        },
+        {
+            "position": 7,
+            "title": "Shop Baby Alive Toys and Accessories, Interactive and ...",
+            "link": "https://babyalive.hasbro.com/en-us/toys-games",
+            "displayed_link": "https://babyalive.hasbro.com › en-us › toys-games",
+            "snippet": "Explore some of your favorite Baby Alive dolls in the shop. Find realistic baby dolls that drink and wet, eat and.",
+            "about_this_result": {
+                "source": {
+                    "description": "babyalive.hasbro.com was first indexed by Google in April 2018",
+                    "security": "secure"
+                },
+                "keywords": [
+                    "doll",
+                    "toy",
+                    "buy"
+                ],
+                "related_keywords": [
+                    "dolls",
+                    "toys"
+                ],
+                "languages": [
+                    "English"
+                ],
+                "regions": [
+                    "the United States"
+                ]
+            },
+            "cached_page_link": "https://webcache.googleusercontent.com/search?q=cache:tzPOj1e-a7AJ:https://babyalive.hasbro.com/en-us/toys-games+&cd=37&hl=en&ct=clnk&gl=us"
+        }
+    ],
+    "related_searches": [
+        {
+            "query": "toy baby dolls",
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Toy+baby+dolls&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQ1QJ6BAgwEAE"
+        },
+        {
+            "query": "doll toys",
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Doll+Toys&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQ1QJ6BAguEAE"
+        },
+        {
+            "query": "doll house",
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Doll+House&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQ1QJ6BAgdEAE"
+        },
+        {
+            "query": "dolls for kids",
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Dolls+for+Kids&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQ1QJ6BAgjEAE"
+        },
+        {
+            "query": "original baby doll toy",
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Original+Baby+Doll+Toy&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQ1QJ6BAgoEAE"
+        },
+        {
+            "query": "doll set",
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Doll+Set&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQ1QJ6BAgkEAE"
+        },
+        {
+            "query": "dolls for girls",
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Dolls+for+girls&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQ1QJ6BAgiEAE"
+        },
+        {
+            "query": "doll set for girl",
+            "link": "https://www.google.com/search?gl=us&hl=en&q=Doll+Set+for+Girl&sa=X&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQ1QJ6BAghEAE"
+        }
+    ],
+    "pagination": {
+        "current": 1,
+        "next": "https://www.google.com/search?q=doll+toy+buy&gl=us&hl=en&ei=HMKeYaeNEf240PEPpfCKqA4&start=10&sa=N&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQ8NMDegUIAhCLAQ",
+        "other_pages": {
+            "2": "https://www.google.com/search?q=doll+toy+buy&gl=us&hl=en&ei=HMKeYaeNEf240PEPpfCKqA4&start=10&sa=N&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQ8tMDegQIAhB5",
+            "3": "https://www.google.com/search?q=doll+toy+buy&gl=us&hl=en&ei=HMKeYaeNEf240PEPpfCKqA4&start=20&sa=N&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQ8tMDegQIAhB7",
+            "4": "https://www.google.com/search?q=doll+toy+buy&gl=us&hl=en&ei=HMKeYaeNEf240PEPpfCKqA4&start=30&sa=N&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQ8tMDegQIAhB9",
+            "5": "https://www.google.com/search?q=doll+toy+buy&gl=us&hl=en&ei=HMKeYaeNEf240PEPpfCKqA4&start=40&sa=N&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQ8tMDegQIAhB_",
+            "6": "https://www.google.com/search?q=doll+toy+buy&gl=us&hl=en&ei=HMKeYaeNEf240PEPpfCKqA4&start=50&sa=N&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQ8tMDegUIAhCBAQ",
+            "7": "https://www.google.com/search?q=doll+toy+buy&gl=us&hl=en&ei=HMKeYaeNEf240PEPpfCKqA4&start=60&sa=N&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQ8tMDegUIAhCDAQ",
+            "8": "https://www.google.com/search?q=doll+toy+buy&gl=us&hl=en&ei=HMKeYaeNEf240PEPpfCKqA4&start=70&sa=N&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQ8tMDegUIAhCFAQ",
+            "9": "https://www.google.com/search?q=doll+toy+buy&gl=us&hl=en&ei=HMKeYaeNEf240PEPpfCKqA4&start=80&sa=N&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQ8tMDegUIAhCHAQ",
+            "10": "https://www.google.com/search?q=doll+toy+buy&gl=us&hl=en&ei=HMKeYaeNEf240PEPpfCKqA4&start=90&sa=N&ved=2ahUKEwini5Cri7L0AhV9HDQIHSW4AuUQ8tMDegUIAhCJAQ"
+        }
+    },
+    "serpapi_pagination": {
+        "current": 1,
+        "next_link": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=doll+toy+buy&start=10",
+        "next": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=doll+toy+buy&start=10",
+        "other_pages": {
+            "2": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=doll+toy+buy&start=10",
+            "3": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=doll+toy+buy&start=20",
+            "4": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=doll+toy+buy&start=30",
+            "5": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=doll+toy+buy&start=40",
+            "6": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=doll+toy+buy&start=50",
+            "7": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=doll+toy+buy&start=60",
+            "8": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=doll+toy+buy&start=70",
+            "9": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=doll+toy+buy&start=80",
+            "10": "https://serpapi.com/search.json?device=desktop&engine=google&gl=us&google_domain=google.com&hl=en&location=Austin%2C+Texas%2C+United+States&q=doll+toy+buy&start=90"
+        }
+    }
+}
