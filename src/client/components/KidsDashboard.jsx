@@ -48,7 +48,7 @@ const KidsDashboard = () => {
     <div className="row">
 
       <div className="column">
-        <h3> Your top choice </h3>
+        <h3> Most Wanted </h3>
         <div className="mostWantedColumn">
           {/* <textarea className="wishListTextarea" cols='10' rows="10" onSubmit= {e => onSubmit(e)}></textarea> */}
           <form onSubmit= {e => onSubmit1(e)}>
@@ -66,7 +66,7 @@ const KidsDashboard = () => {
       </div>
 
       <div className="column">
-      <h3> Your second  choice </h3>
+      <h3> Mediocre </h3>
         <div className="medicoreColumn">
         <form onSubmit= {e => onSubmit2(e)}>
           <input type="text" name="wish" className="wishListTextarea" cols='10' rows="10"  />
@@ -83,7 +83,7 @@ const KidsDashboard = () => {
       </div>
 
       <div className="column">
-      <h3> Your third choice </h3>
+      <h3> Least Wanted </h3>
         <div className="leastWantedColumn">
         <form onSubmit= {e => onSubmit3(e)}>
           <input type="text" name="wish" className="wishListTextarea" cols='10' rows="10"  />
