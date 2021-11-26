@@ -2,7 +2,7 @@ import  React from "react";
 import { useState, useEffect, useRef } from 'react';
 import { Link } from "react-router-dom";
 
-const Wishlist = () => {
+const LetterToSanta = () => {
     const [email, setEmail] = useState('');
     // const [message, setMessage] = useState('');
     const [parentEmail, setParentEmail] = useState('');
@@ -18,7 +18,7 @@ const Wishlist = () => {
             Subject: "2021 Wishlist",
             Body: email,
           }).then(
-              alert("mail sent successfully")
+              //alert("mail sent successfully")
           ).catch(err);
     }
 
@@ -50,7 +50,7 @@ const Wishlist = () => {
 
 
     return (
-        <div className="wishlist">
+        <div >
             <form>
                 <div className="row">
                     <div className="input-field">
@@ -64,13 +64,16 @@ const Wishlist = () => {
                 </div>
                 <div className="row">
                     <div className="input-field">
-                    <h5>🎅 Write your wishlist to Santa here! 🎁</h5>
-                        <textarea name="body" id="body" className="textarea" placeholder="What should Santa bring?" cols="90" rows="25" onChange={e => {setEmail(e.target.value)}}></textarea>
+                    <h5>🎅 Write a letter to Santa! 🎁</h5>
+                        <textarea name="body" id="body" className="letterTextarea" placeholder="What should Santa bring?" cols="90" rows="25" onChange={e => {setEmail(e.target.value)}}></textarea>
                     </div>
                 </div>
                 <div className="row">
                     <input type="button" value="Save draft" onClick={fakeAlert} className="submit"></input>
+                    <Link to="/KidsDashboard">
                     <input type="submit" value="Send to Santa Clause" className="submit" onClick={e=> {sendEmail()}}></input>
+                    </Link>
+                    
                     <button type="submit">
                       <Link to="/Dashboard">Draft</Link>
                     </button>
@@ -87,4 +90,4 @@ const Wishlist = () => {
     )
 }
 
-export default Wishlist
+export default LetterToSanta;

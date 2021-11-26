@@ -10,6 +10,11 @@ const Homepage = () => {
         Parent Dashboard
       </button>
       </Link>
+      <Link to="/LetterToSanta">
+      <button>
+        Kid's Dashboard
+      </button>
+      </Link>
       </div>
       <div className="wrapper">
         <div className="face">
@@ -43,4 +48,4 @@ const Homepage = () => {
   )
 }
 
-export default Homepage
+export default Homepage;
