@@ -1,44 +1,59 @@
-import React  from 'react';
-import { Link } from 'react-router-dom';
+import React, { useContext, createContext, useState, useEffect}  from 'react';
+import {   BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  Redirect,
+  useHistory,
+  useLocation } from 'react-router-dom';
+import { Navigate } from 'react-router';
 
 const Signup = () => {
   const [values, setValues] = React.useState({
     name: "",
-    username: "",
     email: "",
     password: "",
+    isLoggedIn: false
   });
-
-
+  // const [name, setName] = useState('');
+  // // const [childsName, setChildsName] = useState('');
+  // const [email, setEmail] = useState('');
+  // const [password, setPassword] = useState('');
+  // const [isLoggedIn, setLogin] = useState(false);
   const onFormSubmit = () => {
-    const requestOptions = {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({
-        name: values.name,
-        username: values.username,
-        email: values.email,
-        password: values.password,
-      })
-    }
-    fetch('/SignUp', requestOptions)
-      .then(res => res.json())
-      .then(res => {
-        if (res.userID) {
-          props.authenicator({authorized: true})
-        }
-        console.log('Res: ', res)
-      });
+    console.log('hi')
+    
   }
+  useEffect(() => {
+
+      fetch('/api/SignUp',{       
+        "method": "POST",
+        "headers": { "Content-Type": "application/json" },
+        "body": {
+          "name": JSON.stringify(values.name),
+          "email": JSON.stringify(values.email),
+          "password": JSON.stringify(values.password),
+        }})
+          .then(res => res.json())
+          .then(res => 
+            {
+            console.log("hello");
+            // this.state.isLoggedIn = true;
+            // res.Redirect('/ParentLanding');
+          })
+      
+    ;})
   const handleInputChange = (prop) => (event) => {
     setValues({ ...values, [prop]: event.target.value });
+    console.log('am i here')
   };
+
   return (
   <div>  
   <div className='login'>
     <form>
     <div className="form-group">
-      <label htmlFor="name">Name:</label>
+      <label htmlFor="name"> Parent's Name:</label>
        <input
           type="name"
           id="name"
@@ -46,19 +61,7 @@ const Signup = () => {
           value={values.name}
           name="name"
           className="form-control"
-          placeholder="Enter Name"
-        />
-    </div>
-    <div className="form-group">
-      <label htmlFor="username">Username:</label>
-       <input
-          type="username"
-          id="username"
-          onChange={handleInputChange("username")}
-          value={values.username}
-          name="username"
-          className="form-control"
-          placeholder="Enter Username"
+          placeholder="Enter Parent's Name"
         />
     </div>
     <div className="form-group">
@@ -85,11 +88,9 @@ const Signup = () => {
           placeholder="Create Password"
         /> 
     </div>
-    <Link to="/Login">
-      <button onClick={onFormSubmit} variant="outlined">
+      <button onClick={onFormSubmit}>
       Sign Up
       </button>
-      </Link>   
       </form>
   </div>
   <div className="snowmandiv">

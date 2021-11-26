@@ -19,7 +19,7 @@ const Login = () => {
       .then(res => res.json())
       .then(res => {
         if (newUser.id) {
-          props.authenicator({authorized: true})
+          props.authenticator({authorized: true})
         }
         console.log('Res: ', res)
       });
