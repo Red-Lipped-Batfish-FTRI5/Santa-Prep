@@ -10,7 +10,7 @@ const Homepage = () => {
         Parent Dashboard
       </button>
       </Link>
-      <Link to="/KidsDashboard">
+      <Link to="/LetterToSanta">
       <button>
         Kid's Dashboard
       </button>
