@@ -18,7 +18,7 @@ const LetterToSanta = () => {
             Subject: "2021 Wishlist",
             Body: email,
           }).then(
-              alert("mail sent successfully")
+              //alert("mail sent successfully")
           ).catch(err);
     }
 
@@ -70,7 +70,10 @@ const LetterToSanta = () => {
                 </div>
                 <div className="row">
                     <input type="button" value="Save draft" onClick={fakeAlert} className="submit"></input>
+                    <Link to="/KidsDashboard">
                     <input type="submit" value="Send to Santa Clause" className="submit" onClick={e=> {sendEmail()}}></input>
+                    </Link>
+                    
                     <button type="submit">
                       <Link to="/Dashboard">Draft</Link>
                     </button>
