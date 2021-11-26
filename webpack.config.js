@@ -42,7 +42,9 @@ module.exports = {
     proxy: {
         '/api': 'http://localhost:3000/',
         '/api/SignUp': 'http://localhost:3000/',
-        '/Login': 'http://localhost:3000/',
+        '/api/Login': 'http://localhost:3000/',
+        '/api/CreateChild': 'http://localhost:3000/',
+
       },
   },
   module: {
