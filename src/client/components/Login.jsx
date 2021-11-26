@@ -33,7 +33,7 @@ const Login = () => {
     <div className= 'login'>
       <form>
       <div className="form-group">
-        <label htmlFor="username">Username:</label>
+        <label htmlFor="username">  Username:</label>
           <input
             type="username"
             id="username"
