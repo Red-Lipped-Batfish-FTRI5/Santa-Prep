@@ -9,6 +9,7 @@ import KidCard from './KidCard.jsx'
 //fetch data for each list on shopping modal (5)
 
 const ViewKiddos = () => { 
+  /*
   useEffect(() => {
     const fetchData = () => {
       fetch(`https://serpapi.com/search.json?q=${searchQuery}+toy+buy&location=Austin%2C+Texas%2C+United+States&hl=en&gl=us&api_key=c80c62120983208a5a79dbe3a49528bad80e22e41fb41db090eccb5bfc6f423e`, {
@@ -58,6 +59,7 @@ const ViewKiddos = () => {
   setCards(cardHolder);
 
   }, [data])
+  */
 /*
   async componentDidMount () {
     const data = await fetch('/api/parentRoutes')
