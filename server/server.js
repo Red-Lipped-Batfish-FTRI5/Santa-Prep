@@ -28,12 +28,18 @@ app.post('/api/Login', userController.verifyUser, (req, res) => {
   res.status(200).send('User logged in')
   });
 
+
+app.post('/api/CreateChild', userController.createChild, (req, res) => {
+   res.status(200).json(res.locals.children);
+ });
       // if (!res.locals.user) return res.send(`Username does not exist`);
       // if (res.locals.user.password !== req.body.password)
       //   return res.send(`Password is incorrect`);
       //   //need to redirect to homepage
       // if (res.locals.user.password === req.body.password) 
       
+
+
       
 app.use('*', (req, res) => {
   res.status(404).send('Not Found');
