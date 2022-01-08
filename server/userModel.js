@@ -1,16 +1,3 @@
-// const { Schema, model } = require('mongoose');
-
-
-// const userSchema = new Schema({
-//     name: {type: String, required: true},
-//     email: {type: String, required: true},
-//     username: {type: String, required: true, unique: true},
-//     password: {type: String, required: true}
-// })
-
-// const User = model('user', userSchema)
-
-// module.exports = User;
 
 /*Elephant SQL link to "velocirabbitworkshop" */
 //postgres://ephxsuqw:YrDBiYO2_YXpGhKJJjSwPk9v0MPYCSOv@castor.db.elephantsql.com/ephxsuqw
